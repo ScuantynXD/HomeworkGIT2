@@ -1,0 +1,11 @@
+.main {
+	margin: 0px auto;
+	width: 1920px;
+	background-color: #f0689e;
+	text-align: center;
+	
+}
+.globe {
+	background-size: cover;
+	opacity: 0.1;
+}
