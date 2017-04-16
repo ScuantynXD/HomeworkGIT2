@@ -300,6 +300,7 @@ article {
 .vanilla {
 	margin: 0 auto;
 	width: 65%;	
+	text-align: left;
 }
 .btn3 { /*настройка кнопки 1*/
 	width: 130px;
@@ -329,6 +330,6 @@ article {
 	cursor: pointer;
 	background-color: #b98f17;
 }
-.vanillaslider li>a {
+.slider {
 	color: #909090;
 }
