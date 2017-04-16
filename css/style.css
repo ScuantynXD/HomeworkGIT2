@@ -1,0 +1,147 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+.clearfix {
+    clear: both;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	cursor: pointer;
+}
+.main {
+	margin: 0 auto;
+	width: 1920px;
+	background-color: #ffffff;
+}
+.globe {
+	z-index: -10;
+}
+header { /*верхушка*/
+	text-align: center;
+	background-image: url("../IMG/globe.png")
+}
+li {
+	display: block;
+}
+.indent { /*отступы вместо br*/
+	height: 0.5vw;
+}
+.indent2 {
+	height: 1vw;
+}
+.indent3 {
+	height: 5vw;
+}
+.boxname { /* названия*/
+	text-transform: uppercase;
+}
+.mainbox { /* квадраты со сылками*/
+	position: relative;
+	left: 20%;
+	top: -4vw;
+	margin: 0 auto;
+	text-align: center;
+}
+.box {
+	width: 179px;
+	height: 174px;
+	float: left;
+	margin-right: 44px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow: 0px 0px 10px 0px gray;
+}
+.pic2, .pic4, .pic5,  {
+	width: 40%;
+}
+.pic1 {
+	position: relative;
+	top: 4px;
+	width: 40%;
+}
+.pic3 {
+	position: relative;
+	top: -8px;
+	width: 42%;
+}
+section { /*секция 1*/
+	margin: 0 auto;
+}
+.block1 { /* настройка текста в секции 1 блок 1*/
+	margin: 0 auto;
+	width: 65%;	
+}
+.text1, .text2, .text3 {
+	line-height: 0.1em;
+}
+.img1 {
+	margin-top: 0;
+	margin-left: 90px;
+	float: right;
+}
+.text1 {
+	font-size: 14pt;
+	color:#898989;
+	text-transform: uppercase;
+}
+.text2 {
+	font-size: 35pt;
+	color:#222222;
+}
+.text3 {
+	font-size: 18pt;
+	color:#898989;
+}
+.text4 {
+	font-size: 14pt;
+	color:#898989;
+	line-height: 1.5em;
+}
+.btn1 { /*настройка кнопки*/
+	width: 190px;
+	height: 50px;
+	background-color: #fed45c;
+	border: none;
+	border-radius: 25px;
+	box-shadow: 0px 0px 30px 0px #fed45c; 
+	font-size: 10pt;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.btn1:hover {
+	cursor: pointer;
+	background-color: #b98f17;
+}
+.block2 { /*настройка секция 1 блок 2*/
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+.text5 { /*настройка текста в блоке 2 секция 1*/	
+	font-size: 13pt;
+	color: #555555;
+	text-transform: uppercase;
+}
+.text6 {
+	font-size: 20pt;
+	color: #9b9b9b;
+}
+.text7 {
+	font-size: 13pt;
+	color: #222222;
+	text-transform: uppercase;
+}
+.text8 {
+	font-size: 13pt;
+	color: #9b9b9b;
+	text-transform: uppercase;
+}
+article {
+	height: 420px;
+}
