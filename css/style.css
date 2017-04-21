@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "roboto";
+	src: url("../css/roboto.ttf");
+}
+@font-face {
+	font-family: "poppins";
+	src: url("../css/poppins.ttf");
+}
 body {
 	margin: 0px;
 	padding: 0px;
@@ -33,6 +41,7 @@ header { /*верхушка*/
 	color: white;
 	font-size: 28pt;
 	text-transform: uppercase;
+	font-family: "roboto";
 }
 li {
 	display: block;
@@ -49,6 +58,7 @@ nav {
 	color: white;
 	text-transform: uppercase;
 	font-size: 15pt;
+	font-family: "roboto";
 }
 .drop {
 	width: 36px;
@@ -123,18 +133,22 @@ section { /*секция 1*/
 	font-size: 14pt;
 	color:#898989;
 	text-transform: uppercase;
+	font-family: "roboto";
 }
 .text2 {
 	font-size: 35pt;
 	color:#222222;
+	font-family: "roboto";
 }
 .text3 {
 	font-size: 18pt;
 	color:#898989;
+	font-family: "roboto";
 }
 .text4 {
 	font-size: 14pt;
 	color:#898989;
+	font-family: "roboto";
 	line-height: 1.5em;
 }
 .btn1 { /*настройка кнопки 1*/
@@ -145,6 +159,7 @@ section { /*секция 1*/
 	border-radius: 30px;
 	box-shadow: 0px 0px 30px 0px #fed45c; 
 	font-size: 10pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 }
@@ -160,6 +175,7 @@ section { /*секция 1*/
 	border-radius: 25px;
 	box-shadow: 0px 0px 30px 0px #fed45c; 
 	font-size: 10pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 }
@@ -176,20 +192,24 @@ section { /*секция 1*/
 	font-size: 13pt;
 	color: #555555;
 	text-transform: uppercase;
+	font-family: "roboto";
 }
 .text6 {
 	font-size: 20pt;
 	color: #9b9b9b;
+	font-family: "roboto";
 }
 .text7 {
 	font-size: 13pt;
 	color: #222222;
 	text-transform: uppercase;
+	font-family: "roboto";
 }
 .text8 {
 	font-size: 13pt;
 	color: #9b9b9b;
 	text-transform: uppercase;
+	font-family: "roboto";
 }
 .itemmain {	
 	height: 360px;
@@ -207,14 +227,16 @@ section { /*секция 1*/
 .text9 {
 	font-size: 18pt;
 	color: #222222;
+	font-family: "roboto";
 }
 .text10 {
 	font-size: 14pt;
 	color: #777777;
+	font-family: "roboto";
 }
 article {
 	height: 420px;
-	background-image: url("../img/Layer25.png");
+	background-image: url("../img/Layer25.jpg");
 }
 .pic10 {
 	position: relative;
@@ -255,47 +277,19 @@ article {
 	color: white;
 	text-transform: uppercase;
 }
-/*.ring1 {
-	position: relative;
-	left: 400px;
-	top: -335px;
-	width: 510px;
-	height: 510px;
-	background-color: #de679c;
-	border-radius: 255px;
-	z-index: 1;
-}
-.ring2 {
-	position: relative;
-	left: 460px;
-	top: -780px;
-	width: 390px;
-	height: 390px;
-	background-color: #cf6ea5;
-	border-radius: 195px;
-	z-index: 2;
-}
-.ring3 {
-	position: relative;
-	left: 510px;
-	top: -1120px;
-	width: 290px;
-	height: 290px;
-	background-color: #c65f8e;
-	border-radius: 145px;
-	z-index: 3;
-}*/
 .latestP {
 	text-align: center;
 }
 .text11 {
 	font-size: 35pt;
 	color: #222222;
+	font-family: "roboto";
 }
 .text12 {
 	font-size: 16pt;
 	color: #808080;
 	line-height: 0.2;
+	font-family: "roboto";
 }
 .vanilla {
 	margin: 0 auto;
@@ -309,6 +303,7 @@ article {
 	border-radius: 30px;
 	background-color: #ffffff;
 	font-size: 10pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 }
@@ -324,6 +319,7 @@ article {
 	border-radius: 25px;
 	box-shadow: 0px 0px 30px 0px #fed45c; 
 	font-size: 10pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 }
@@ -345,6 +341,11 @@ article {
 	text-align: center;
 	line-height: 1.5;
 	font-size: 30pt;
+	font-family: "roboto";
+	transition: 1s;
+}
+.leftslide:hover {
+	background-color: gray;
 }
 .rightslide {
 	position: relative;
@@ -357,15 +358,22 @@ article {
 	text-align: center;
 	line-height: 1.5;
 	font-size: 30pt;
+	font-family: "roboto";
+	transition: 1s;
+}
+.rightslide:hover {
+	background-color: gray;
 }
 .text13 {
 	font-size: 24pt;
 	color:#222222;
 	text-transform: uppercase;
+	font-family: "roboto";
 }
 .text14 {
 	font-size: 14pt;
 	color:#898989;
+	font-family: "roboto";
 }
 .text15 {
 	font-size: 12pt;
@@ -376,6 +384,7 @@ article {
 	font-size: 12pt;
 	color: #666666;
 	text-transform: uppercase;
+	font-family: "roboto";
 }
 .CompanyNews {
 	height: 900px;
@@ -397,10 +406,12 @@ article {
 .text17 {
 	font-size: 24pt;
 	color: #4e4e4e;
+	font-family: "roboto";
 }
 .text18 {
 	font-size: 14pt;
 	color: #888888;
+	font-family: "roboto";
 }
 .txt {
 	width: 280px;
@@ -412,6 +423,7 @@ article {
 input[placeholder] {
 	font-size: 14pt;
 	padding-left: 20px;
+	font-family: "roboto";
 }
 input[type="submit"] {
 	width: 300px;
@@ -421,6 +433,7 @@ input[type="submit"] {
 	border-radius: 27px;
 	box-shadow: 0px 0px 30px 0px #fed45c; 
 	font-size: 14pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 	margin-top: 20px;
@@ -465,9 +478,11 @@ input[type="submit"]:hover {
 .text19 {
 	font-size: 30pt;
 	color: #5b5b5b;
+	font-family: "roboto";
 }
 .text20 {
 	font-size: 13pt;
+	font-family: "roboto";
 	color: #5b5b5b;
 	line-height: 0.5;
 	text-transform: uppercase;
@@ -475,9 +490,11 @@ input[type="submit"]:hover {
 .text21 {
 	font-size: 16pt;
 	color: #313131;
+	font-family: "roboto";
 }
 .text22 {
 	font-size: 17pt;
+	font-family: "roboto";
 	color: #6a6a6a;
 	line-height: 0.3;
 }
@@ -490,7 +507,12 @@ input[type="submit"]:hover {
 	border: 1px solid darkgray;
 	border-radius: 13px;
 	text-align: center;
-	color: gray;	
+	color: gray;
+	transition: 1s;	
+}
+.plus:hover {
+	color: white;
+	background-color: gray;
 }
 .HelpSupport {
 	height: 560px;
@@ -503,15 +525,18 @@ input[type="submit"]:hover {
 }
 .text23 {
 	font-size: 35pt;
+	font-family: "roboto";
 	color: #222222;
 	line-height: 0.2;
 }
 .text24 {
 	font-size: 16pt;
+	font-family: "roboto";
 	color: #313131;	
 }
 .text25 {
 	font-size: 15pt;
+	font-family: "roboto";
 	color: #222222;
 	text-transform: uppercase;	
 }
@@ -522,6 +547,7 @@ input[type="submit"]:hover {
 	border-radius: 22px;
 	background-color: #ffffff;
 	font-size: 12pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 }
@@ -537,6 +563,7 @@ input[type="submit"]:hover {
 	border-radius: 22px;
 	box-shadow: 0px 0px 30px 0px #fed45c; 
 	font-size: 12pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 }
@@ -551,6 +578,7 @@ input[type="submit"]:hover {
 	border-radius: 22px;
 	background-color: #ffffff;
 	font-size: 12pt;
+	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
 	margin-top: 12px;
@@ -567,5 +595,6 @@ footer {
 }
 .text26 {
 	font-size: 14pt; 
+	font-family: "poppins";
 	color: #bbbbbb;
 }
