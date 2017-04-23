@@ -6,10 +6,13 @@
 	font-family: "poppins";
 	src: url("../css/poppins.ttf");
 }
+html {
+	margin: 0px;
+	padding: 0px;
+}
 body {
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden;
 }
 .clearfix {
     clear: both;
@@ -414,15 +417,17 @@ article {
 	font-family: "roboto";
 }
 .txt {
-	width: 280px;
+	width: 260px;
 	height: 55px;
 	margin-top: 20px;
 	border: 1px solid darkgray;
 	border-radius: 5px;
+	outline: none;
 }
 input[placeholder] {
 	font-size: 14pt;
 	padding-left: 20px;
+	padding-right: 20px;
 	font-family: "roboto";
 }
 input[type="submit"] {
