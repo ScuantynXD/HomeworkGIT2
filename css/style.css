@@ -104,18 +104,40 @@ nav {
 	text-align: center;
 	box-shadow: 0px 0px 10px 0px gray;
 }
-.pic2, .pic4, .pic5,  {
-	width: 40%;
-}
 .pic1 {
-	position: relative;
-	top: 4px;
-	width: 40%;
+	margin: 0px auto;
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -8px -17px ;
+	width: 90px;
+	height: 90px;
+}
+.pic2 {
+	margin: 0px auto;
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -116px -17px ;
+	width: 63px;
+	height: 64px;
 }
 .pic3 {
-	position: relative;
-	top: -8px;
-	width: 42%;
+	margin: 0px auto;
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -213px -24px ;
+	width: 76px;
+	height: 76px;
+}
+.pic4 {
+	margin: 0px auto;
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -324px -20px ;
+	width: 52px;
+	height: 57px;
+}
+.pic5 {
+	margin: 0px auto;
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -416px -19px ;
+	width: 62px;
+	height: 62px;
 }
 section { /*секция 1*/
 	margin: 0 auto;
