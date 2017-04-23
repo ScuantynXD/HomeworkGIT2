@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -5px;
+}
+
+.sprite-google {
+    width: 41px;
+    height: 41px;
+    background-position: -56px -5px;
+}
+
+.sprite-linked {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -56px;
+}
+
+.sprite-twitter {
+    width: 41px;
+    height: 41px;
+    background-position: -56px -56px;
+}
