@@ -568,7 +568,7 @@ input[type="submit"]:hover {
 	border: none;
 	border-radius: 22px;
 	box-shadow: 0px 0px 30px 0px #fed45c; 
-	font-size: 16pt;
+	font-size: 21px;
 	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
@@ -583,7 +583,7 @@ input[type="submit"]:hover {
 	border:2px solid darkgray;
 	border-radius: 22px;
 	background-color: #ffffff;
-	font-size: 16pt;
+	font-size: 21px;
 	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
