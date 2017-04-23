@@ -227,6 +227,9 @@ section { /*секция 1*/
 	width: 380px;
 	float: left;
 }
+.pic6:after{
+	content: "why over 50k people choose us";
+}
 .text9 {
 	font-size: 24px;
 	color: #222222;
@@ -291,7 +294,7 @@ article {
 .text12 {
 	font-size: 21px;
 	color: #808080;
-	line-height: 0.2;
+	line-height: 0.2em;
 	font-family: "roboto";
 }
 .vanilla {
@@ -342,7 +345,7 @@ article {
 	border: 1px solid gray;
 	border-radius: 30px;
 	text-align: center;
-	line-height: 1.5;
+	line-height: 1.5em;
 	font-size: 40px;
 	font-family: "roboto";
 	transition: 1s;
@@ -359,7 +362,7 @@ article {
 	border: 1px solid gray;
 	border-radius: 30px;
 	text-align: center;
-	line-height: 1.5;
+	line-height: 1.5em;
 	font-size: 40px;
 	font-family: "roboto";
 	transition: 1s;
@@ -533,7 +536,7 @@ input[type="submit"]:hover {
 	font-size: 47px;
 	font-family: "roboto";
 	color: #222222;
-	line-height: 0.2;
+	line-height: 0.2em;
 }
 .text24 {
 	font-size: 21px;
@@ -568,7 +571,7 @@ input[type="submit"]:hover {
 	border: none;
 	border-radius: 22px;
 	box-shadow: 0px 0px 30px 0px #fed45c; 
-	font-size: 21px;
+	font-size: 16px;
 	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
@@ -583,7 +586,7 @@ input[type="submit"]:hover {
 	border:2px solid darkgray;
 	border-radius: 22px;
 	background-color: #ffffff;
-	font-size: 21px;
+	font-size: 16px;
 	font-family: "roboto";
 	text-transform: uppercase;
 	transition: 1s;
